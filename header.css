@@ -1,0 +1,21 @@
+header {
+  background-color: #e24647;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 60px 95px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+a {
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  padding-right: 60px;
+}
