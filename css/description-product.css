@@ -9,12 +9,12 @@
 }
 
 .description-product > .item {
-  width: 200px;
   font-size: 20px;
   margin-bottom: 28px;
 }
 
 .description-product > .item.-info {
+  width: 200px;
   text-align: right;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .description-product > .text {
-  width: 553px;
   line-height: 30px;
   font-size: 18px;
   margin-bottom: 30px;
