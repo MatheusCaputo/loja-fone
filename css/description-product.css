@@ -10,6 +10,7 @@
 
 .description-product > .item.-star {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .description-product > .item.-star + .item {

@@ -12,6 +12,12 @@
   text-decoration: none;
   box-sizing: border-box;
   border: none;
+  cursor: pointer;
+}
+
+.button-store:hover {
+  background-color: #fff;
+  color: #252c41;
 }
 
 .button-store.-second {
@@ -20,6 +26,11 @@
   border: 2px solid #fff;
   line-height: 56px;
   margin-right: 38px;
+}
+
+.button-store.-second:hover {
+  background-color: #fff;
+  color: #e24647;
 }
 
 .button-store > button,
