@@ -30,12 +30,20 @@
   padding: 8px;
   width: 358px;
   margin-right: 65px;
+  vertical-align: bottom;
 }
 
 .header-store .action {
+  display: inline-block;
   color: inherit;
   text-decoration: none;
   margin-right: 60px;
+  padding-bottom: 8px;
+  border: 1px solid transparent;
+}
+
+.header-store .action:hover {
+  border-bottom-color: #fff;
 }
 
 .header-store .action.-last {
