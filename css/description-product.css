@@ -8,6 +8,19 @@
   margin-bottom: 50px;
 }
 
+.description-product > .item {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.description-product > .item.-like {
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-100%);
+  top: 9px;
+  left: -47px;
+}
+
 .description-product > .item.-star {
   margin-bottom: 15px;
   cursor: pointer;
@@ -15,11 +28,6 @@
 
 .description-product > .item.-star + .item {
   margin-left: 7px;
-}
-
-.description-product > .item {
-  font-size: 20px;
-  margin-bottom: 28px;
 }
 
 .description-product > .item.-info {

@@ -5,12 +5,6 @@
   position: relative;
 }
 
-.wrap-product > .like {
-  cursor: pointer;
-  position: absolute;
-  transform: translateX(calc(-100% - 47px));
-}
-
 .wrap-product > .buttons {
   position: absolute;
   bottom: 0;
