@@ -3,7 +3,7 @@
   background-color: #e24647;
   width: 90%;
   max-width: 1330px;
-  padding: 55px 60px 165px 0px;
+  padding: 55px 0px 165px 0px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -27,14 +27,14 @@
   }
 }
 
-@media (max-width: 1005px) {
+@media (max-width: 1325px) {
   .container-store {
-    padding-right: 30px;
+    padding-bottom: 65px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 595px) {
   .container-store {
-    padding-right: 16px;
+    padding-bottom: 0;
   }
 }

@@ -2,11 +2,12 @@
   color: #fff;
   overflow: hidden;
   margin-bottom: 138px;
+  padding-right: 60px;
   padding-left: 60px;
 }
 
 .header-store > .title {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   float: left;
   text-transform: uppercase;
@@ -80,7 +81,10 @@
 
 @media (max-width: 1005px) {
   .header-store {
+    text-align: center;
     padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 98px;
   }
 
   .header-store .search {
@@ -88,21 +92,28 @@
   }
 }
 
-@media (max-width: 515px) {
+@media (max-width: 595px) {
+  .header-store {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 545px) {
   .header-store .action {
     margin-right: 30px;
   }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 485px) {
   .header-store .action {
     margin-right: 15px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 455px) {
   .header-store {
     padding-left: 16px;
+    padding-right: 16px;
   }
 
   .header-store .action {

@@ -1,6 +1,7 @@
 .description-product {
   color: #fff;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .description-product > .title {
@@ -65,4 +66,29 @@
 .description-product .action {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 1325px) {
+  .description-product > .title {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .description-product > .item {
+    text-align: center;
+  }
+
+  .description-product > .item.-like {
+    position: static;
+    transform: none;
+  }
+
+  .description-product > .item.-info {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description-product > .text.-more {
+    text-align: center;
+  }
 }

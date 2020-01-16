@@ -7,3 +7,35 @@
   border-bottom-right-radius: 150px;
   margin-right: 157px;
 }
+
+@media (max-width: 1325px) {
+  .photo-product {
+    width: 100%;
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+  }
+
+  .photo-product > .ilustration {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 825px) {
+  .photo-product > .ilustration {
+    transform: translateX(-50%) scale(0.8);
+  }
+}
+
+@media (max-width: 595px) {
+  .photo-product {
+    transform: scale(0.8);
+    border-radius: 150px;
+  }
+  .photo-product > .ilustration {
+    transform: translateX(-50%) scale(0.7);
+  }
+}
