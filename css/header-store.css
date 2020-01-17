@@ -2,8 +2,8 @@
   color: #fff;
   overflow: hidden;
   margin-bottom: 138px;
-  padding-right: 60px;
   padding-left: 60px;
+  padding-right: 60px;
 }
 
 .header-store > .title {
@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 1225px) {
+  .header-store {
+    margin-bottom: 98px;
+  }
+
   .header-store > .title {
     float: none;
     text-align: center;
@@ -84,17 +88,11 @@
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 98px;
+    margin-bottom: 30px;
   }
 
   .header-store .search {
     display: none;
-  }
-}
-
-@media (max-width: 595px) {
-  .header-store {
-    margin-bottom: 0;
   }
 }
 

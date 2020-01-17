@@ -1,7 +1,6 @@
 .description-product {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  position: relative;
 }
 
 .description-product > .title {
@@ -69,26 +68,30 @@
 }
 
 @media (max-width: 1325px) {
+  .description-product {
+    width: 50%;
+    min-width: 623px;
+    margin: 0 auto 60px;
+  }
+
   .description-product > .title {
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .description-product > .item {
+    font-size: 35px;
     text-align: center;
   }
 
-  .description-product > .item.-like {
-    position: static;
-    transform: none;
+  .description-product > .item.-star {
+    float: left;
+    margin-right: 15px;
   }
 
-  .description-product > .item.-info {
-    margin-left: auto;
-    margin-right: auto;
+  .description-product > .item.-number {
+    padding-top: 4px;
   }
+}
 
-  .description-product > .text.-more {
-    text-align: center;
+@media (max-width: 720px) {
+  .description-product {
+    width: 90%;
+    min-width: auto;
   }
 }
