@@ -4,7 +4,7 @@
 
 - Conteúdo;
 - Semântico (tags);
-- Estrutura
+- Estrutura;
 
 * `<h1>` - heading 1 - 6
   Usamos ele quando queremos definir títulos
@@ -20,4 +20,12 @@
 
 É uma linguagem de estilo, isso que dizer que ela tem as seguintes responsibilidade:
 
-- Visual
+- Visual;
+- Animacao;
+
+# JavaScript
+
+É uma linguagem de programacao que normalmente tem as seguintes responsiblidades:
+
+- Comportamento;
+- Interacao;

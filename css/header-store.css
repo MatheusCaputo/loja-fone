@@ -34,6 +34,10 @@
   vertical-align: bottom;
 }
 
+.header-store .search::placeholder {
+  color: inherit;
+}
+
 .header-store .action {
   display: inline-block;
   text-decoration: none;
