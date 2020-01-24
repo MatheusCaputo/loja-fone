@@ -1,14 +1,12 @@
-const $like = window.document.querySelector(".-like");
-const $btnAdd = window.document.querySelector(".-second");
-const $cart = window.document.querySelector(".-last");
+const $like = document.querySelector(".-like");
+const $stars = document.querySelectorAll(".star");
 
 $like.addEventListener("click", handleClick);
-$btnAdd.addEventListener("click", handleAdd);
+
+$stars.forEach(function($star) {
+  $star.addEventListener("click", handleClick);
+});
 
 function handleClick() {
-  console.log("Cliquei no coracao");
-}
-
-function handleAdd() {
-  $cart.innerHTML = "Foi";
+  this.classList.toggle("-active");
 }
