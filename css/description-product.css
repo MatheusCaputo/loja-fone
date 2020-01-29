@@ -102,6 +102,11 @@
     text-align: center;
   }
 
+  .description-product > .item.-like {
+    position: static;
+    transform: none;
+  }
+
   .description-product > .item.-star {
     float: left;
     margin-right: 15px;
