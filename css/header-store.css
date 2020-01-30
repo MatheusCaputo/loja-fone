@@ -24,7 +24,7 @@
   color: inherit;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  background: transparent;
+  background-color: transparent;
   color: inherit;
   border: none;
   border-bottom: 1px #fff solid;
@@ -96,7 +96,18 @@
   }
 
   .header-store .search {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    transform: translateX(0);
+
+    transition: transform 250ms linear;
+  }
+
+  .header-store .search.-active {
+    transform: translateX(-88%);
   }
 }
 
